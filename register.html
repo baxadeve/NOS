@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefon Raqam ro'yxatdan o'tqazish</title>
+    <link rel="stylesheet" href="./css/number.css">
+    <link rel="icon" href="./svg/telegram.svg">
+</head>
+<body>
+    <div class="container">
+        <h1>Telefon Raqam</h1>
+        <div class="photo">
+            <h1>------------------------</h1>
+            <p>Iltimos Davlat raqam kodingizni kiring<br> va shaxsiy raqamingizni kirting..</p>
+        </div>
+        <select class="country" id="codes" onchange="tanlash()">
+            <option>UZB +998</option>
+            <option>RU +7</option>
+            <option>USA +1</option>
+        </select>
+        <div class="nomerla">
+            <input class="kodlar">
+            <input type="number" class="nomer">
+        </div>
+        <a href="./chat.html"><button class="#button">CHAT</button></a>
+    </div>
+    <script>
+        let cods = document.querySelectorAll("option")
+        let qiymat = document.querySelector(".kodlar")
+        function tanlash(){
+              cods.values = qiymat
+              qiymat.innerHTML = cods.values
+        }
+    </script>
+</body>
+</html>

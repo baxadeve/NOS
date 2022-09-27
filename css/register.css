@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Ubuntu&display=swap');
+
+body {
+    background-color: rgb(24, 24, 34);
+    content: 'Light Mode';
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.nothing {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+button {
+    margin-left: 88%;
+    width: 80px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+button:active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
